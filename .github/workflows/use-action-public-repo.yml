@@ -1,7 +1,7 @@
 # .github/workflows/use-action-public-repo.yml
 name: Action from a public repository
 on: push 
-                                                                        jobs:                                 
+jobs:                                 
   use-your-own-action:                           
     name: Say Hi using your own action                           
     runs-on: ubuntu-latest                           
