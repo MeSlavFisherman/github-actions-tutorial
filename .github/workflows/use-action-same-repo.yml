@@ -10,6 +10,6 @@ jobs:
     steps:                             
       - uses: actions/checkout@v2
                                                             
-      - uses: ./.github/workflows # the action.yml file is in the root folder                              
+      - uses: ./ # the action.yml file is in the root folder                              
         with:                                
          user: 'Déborah'

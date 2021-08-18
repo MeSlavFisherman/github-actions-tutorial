@@ -1,6 +1,5 @@
 # action.yml
 name: 'Hey From a GitHub Action'
-on: push
 description: 'Greet someone'
 inputs:
   user:  # id of input
